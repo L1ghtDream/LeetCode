@@ -2,15 +2,17 @@
 
 #include "1356.c"
 #include "557.c"
+#include "3.c"
 
 int main() {
 
-    //char s[] = "Let's take LeetCode contest";
-    char s[] = "God Ding";
+    //char s[] = "abcabcbb";
+    //char s[] = "bbbbb";
+    char s[] = "pwwkew";
 
-    char *output = reverseWords(s);
+    int size = lengthOfLongestSubstring(s);
 
-    printf("%s", output);
+    printf("%d", size);
 
     return 0;
 }
