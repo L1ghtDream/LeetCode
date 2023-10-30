@@ -1,19 +1,16 @@
 #include <stdio.h>
 
 #include "1356.c"
+#include "557.c"
 
 int main() {
 
-    //int tests[] = {0, 1, 2, 3, 4, 5, 6, 7, 8};
-    int tests[] = {1024,512,256,128,64,32,16,8,4,2,1};
-    int returnSize = 0;
+    //char s[] = "Let's take LeetCode contest";
+    char s[] = "God Ding";
 
-    int *output = sortByBits(tests, sizeof(tests) / sizeof(int), &returnSize);
+    char *output = reverseWords(s);
 
-    for (int i = 0; i < returnSize; i++) {
-        printf("%d ", output[i]);
-    }
-
+    printf("%s", output);
 
     return 0;
 }
