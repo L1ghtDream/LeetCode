@@ -1,4 +1,5 @@
 #include <string.h>
+
 #define CHARS_COUNT 26
 
 int countCharacters(char **words, int wordsSize, char *chars)
