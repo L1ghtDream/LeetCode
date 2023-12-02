@@ -6,7 +6,7 @@ int countCharacters(char **words, int wordsSize, char *chars)
 {
 	int sum = 0;
 
-	int *chars_freq = (int **)calloc(CHARS_COUNT, sizeof(int));
+	int *chars_freq = calloc(CHARS_COUNT, sizeof(int));
 	int chars_size = strlen(chars);
 
 	for (int i = 0; i < chars_size; i++) {
