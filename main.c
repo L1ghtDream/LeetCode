@@ -1,21 +1,20 @@
 #include <stdio.h>
 #include <malloc.h>
 
-#include "1662.c"
+#include "1160.c"
 
 int main()
 {
 
-	char **word1 = malloc(2 * sizeof(char *));
-	word1[0] = malloc(2 * sizeof(char));
-	word1[1] = malloc(1 * sizeof(char));
-	word1[0] = "ab";
-	word1[1] = "c";
-	char **word2 = malloc(1 * sizeof(char *));
-	word2[0] = malloc(1 * sizeof(char));
-	word2[0] = "abc";
+	char **words = malloc(3 * sizeof(char *));
+	words[0] = malloc(5 * sizeof(char));
+	words[0] = malloc(5 * sizeof(char));
+	words[0] = malloc(8 * sizeof(char));
+	words[0] = "hello";
+	words[1] = "world";
+	words[2] = "leetcode";
 
-	printf("%d", arrayStringsAreEqual(word1, 2, word2, 1));
+	printf("%d", countCharacters(words, 3, "welldonehoneyr"));
 
 	return 0;
 }
