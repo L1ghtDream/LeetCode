@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
 
-#include "2264.c"
+#include "1266.c"
 
 int main()
 {
