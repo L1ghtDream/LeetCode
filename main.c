@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
 
-#include "1266.c"
+#include "154.c"
 
 int main()
 {
